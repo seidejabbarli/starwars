@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="first-container">
+      <div><img class="logo" src="./assets/logo-red.png" alt="" /></div>
+      <div class="button-div"><button class="start-btn">Start</button></div>
+    </div>
+
+    <div class="second-container">
+      <div class="second-layout">
+        <div class="first-line">
+          <div
+            class="hero revan"
+            data-name="Revan"
+            data-health="200"
+            data-power="20"
+          ></div>
+          <div
+            class="hero starkiller"
+            data-name="Starkiller"
+            data-health="200"
+            data-power="40"
+          ></div>
+          <div
+            class="hero nihilus"
+            data-name="Darth Nihilus"
+            data-health="200"
+            data-power="45"
+          ></div>
+          <div
+            class="hero malak"
+            data-name="Darth Malak"
+            data-health="200"
+            data-power="55"
+          ></div>
+          <div
+            class="hero sion"
+            data-name="Darth Sion"
+            data-health="200"
+            data-power="15"
+          ></div>
+          <div
+            class="hero malgus"
+            data-name="Darth Malgus"
+            data-health="200"
+            data-power="30"
+          ></div>
+          <div
+            class="hero bastila"
+            data-name="Bastila Shan"
+            data-health="200"
+            data-power="25"
+          ></div>
+        </div>
+        <div class="choices">
+          <h2>Your Choice</h2>
+          <h2>Enemy</h2>
+        </div>
+        <div class="second-line">
+          <div class="my-choice">
+            <div class="my-choice-img"></div>
+            <h2 class="about-mychoice">
+              Name: <span class="mychoice-name"></span> <br />
+              Power: <span class="mychoice-power"></span> <br />
+              Health: <span class="mychoice-health"></span>
+            </h2>
+          </div>
+          <div class="fight-btn-div">
+            <button class="fight-btn">Fight</button>
+          </div>
+          <div class="enemy">
+            <div class="enemy-img"></div>
+            <h2 class="about-enemy">
+              Name: <span class="enemy-name"></span> <br />
+              Power: <span class="enemy-power"></span> <br />
+              Health: <span class="enemy-health"></span>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="third-container">
+        <div class="third-layout">
+          <div class="about about-player1">
+            <h2>Your Choice</h2>
+            <div class="player1 player">
+              <div class="player1-img"></div>
+              <div>
+                <div class="info info-player1"></div>
+                <div class="width">
+                  <div class="width-hero-layout"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="beat-btn-div"><button class="beat-btn">Beat</button></div>
+          <div class="about about-player2">
+            <h2>Enemy</h2>
+            <div class="player2 player">
+              <div class="player2-img"></div>
+              <div>
+                <div class="info info-player2"></div>
+                <div class="width">
+                  <div class="width-enemy-layout"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="won-page">
+      <div class="won-page-layout">
+        <h2 class="winner-text"></h2>
+        <div class="game-over-div">
+          <button class="game-over-btn">Game Over</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

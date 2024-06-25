@@ -1,0 +1,325 @@
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.first-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://64.media.tumblr.com/0d9832ff747993257a345f5432f20983/tumblr_plorgweTzG1w4t7wqo5_540.gifv);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+.logo{
+    width: 450px;
+    height: 150px;
+}
+
+.first-container>div{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button-div{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.start-btn{
+    border: none;
+    padding: 10px 30px;
+    font-size: 23px;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: rgb(181, 9, 9);
+    transition: 0.2s all;
+}
+
+.start-btn:hover{
+     font-size:25px ;
+}
+
+
+.second-layout{
+  width: 100%;
+  height: 100vh;
+ background-color: rgb(255, 0, 0,0.3);
+}
+
+.second-container{
+    height:max-content;
+    display: none;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/020/568/250/small_2x/spotlight-on-the-wall-black-background-photo.jpeg);
+    background-position: center;
+    background-size: contain;
+    
+}
+
+.first-line{
+    width: 100%;
+    height: 335px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.second-line{
+    width: 100%;
+    height:335px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero{
+    width: 180px;
+    height: 290px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.4s all;
+    filter: drop-shadow(1px 1px 3px white);
+}
+span{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+
+}
+
+.hero:hover{
+    background-size:105% 105% ;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.choices>h2{
+    margin-right: 100px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+
+.my-choice-img{
+    width: 180px;
+    height: 290px;
+}
+
+.enemy-img{
+    width: 180px;
+    height: 290px;
+}
+.about-mychoice,.about-enemy{
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    color: white;
+}
+
+.about>h2{
+    text-align: center;
+}
+
+.my-choice,.enemy{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: 0;
+    transition: 0.6s all;
+}
+.fight-btn-div{
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fight-btn{
+    opacity: 0;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:  rgb(181, 9, 9,0.1);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    transition: 0.2s all;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    border: 3px solid white;
+
+}
+
+.fight-btn:hover{
+    font-size:20px ;
+}
+
+.revan{
+    background-image: url(./assets/revan.png);
+}
+
+.revan:hover{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d40e9ca-1974-4a87-bbfa-165264db741b/dfqvl9v-04c5dfcc-4b63-42b0-ad0a-f37bd6fe597f.png/v1/fill/w_1280,h_1505/darth_revan__star_wars__render_by_soul151killer_dfqvl9v-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTUwNSIsInBhdGgiOiJcL2ZcLzhkNDBlOWNhLTE5NzQtNGE4Ny1iYmZhLTE2NTI2NGRiNzQxYlwvZGZxdmw5di0wNGM1ZGZjYy00YjYzLTQyYjAtYWQwYS1mMzdiZDZmZTU5N2YucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.WccJR_22Q-VHXOGUO6Uw8daAxnNcH08FSu801fr8yJo");
+}
+.bastila{
+    background-image: url(./assets/Bastila-shan.webp);
+}
+.bastila:hover{
+    background-image: url("https://swgoh.wiki/images/thumb/9/9c/Unit-Character-Bastila_Shan.png/340px-Unit-Character-Bastila_Shan.png");
+}
+.malgus{
+    background-image: url(./assets/darth\ malgus.png);
+}
+.malgus:hover{
+    background-image: url("https://swgoh.wiki/images/thumb/2/2f/Unit-Character-Darth_Malgus.png/340px-Unit-Character-Darth_Malgus.png");
+}
+.sion{
+    background-image: url(./assets/darth\ sion.png);
+}
+.sion:hover{
+    background-image: url("https://swgoh.wiki/images/thumb/1/10/Unit-Character-Darth_Sion.png/340px-Unit-Character-Darth_Sion.png");
+}
+.starkiller{
+    background-image: url(./assets/starkiller3.webp);
+}
+.starkiller:hover{
+    background-image: url("https://infinitycollectables.com/cdn/shop/files/lord-starkiller_star-wars_silo_png.webp?v=1713878266");
+}
+.nihilus{
+    background-image: url(./assets/Darth_Nihilus.webp);
+}
+.nihilus:hover{
+    background-image: url("https://swgoh.wiki/images/thumb/5/52/Unit-Character-Darth_Nihilus.png/340px-Unit-Character-Darth_Nihilus.png");
+}
+.malak{
+    background-image: url(./assets/Darth_Malak_Render.webp);
+}
+.malak:hover{
+    background-image: url("https://swgoh.wiki/images/thumb/6/6f/Unit-Character-Darth_Malak.png/340px-Unit-Character-Darth_Malak.png");
+}
+
+.third-container{
+   display: none;
+    height: max-content;
+}
+
+.third-layout{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    background-image: url(./assets/beat-gif-2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.beat-btn-div{
+    width: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beat-btn{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 12px;
+    transition: 0.3s all;
+    border: 3px solid white;
+    color: white;
+    background-color: rgb(255, 255, 255,0.1);
+}
+.beat-btn:hover{
+ font-size: 20px;
+}
+
+.about>h2{
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+}
+.about-player1, .about-player2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.info{
+    color:white;
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.width{
+    margin-top: 10px;
+    width: 220px;
+    height: 20px;
+    background-color: red;
+    border-radius: 10px;
+}
+.width-hero-layout, .width-enemy-layout{
+    width: inherit;
+    height: inherit;
+    background-color: green;
+    border-radius: 10px;
+}
+
+
+.won-page{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/beat-gif-2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+
+.won-page-layout{
+   width: inherit;
+   height: inherit;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.winner-text{
+    color: white;
+    font-size: 30px;
+    color:rgb(181, 9, 9);
+}
+.game-over-div{
+    height: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-over-btn{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 12px;
+    border: 3px solid rgb(181, 9, 9);
+    font-size: 20px;
+    transition: 0.5s all;
+    color:rgb(181, 9, 9);
+    background-color:rgb(181, 9, 9,0.1);
+}
+.game-over-btn:hover{
+    font-size: 22px;
+}
+
